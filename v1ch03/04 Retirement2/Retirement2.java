@@ -27,6 +27,7 @@ public class Retirement2
       {
          // add this year's payment and interest
          balance += payment;
+         balance += payment;
          double interest = balance * interestRate / 100;
          balance += interest;
 
